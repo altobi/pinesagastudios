@@ -6,74 +6,62 @@
     <title>PineSaga Studios</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
 </head>
 <body>
-    <!-- Navigation -->
-    <nav class="navbar">
-        <div class="nav-content">
-            <a href="#" class="nav-logo">PineSaga Studios</a>
-            <div class="nav-links">
-                <a href="#projects">Projects</a>
-                <a href="#team">Team</a>
-                <a href="#contact">Contact</a>
-            </div>
-        </div>
-    </nav>
-
     <!-- Hero Section -->
     <section class="hero">
-        <div class="hero-background" id="montage"></div>
+        <div class="poster-montage" id="posterMontage"></div>
         <div class="hero-content">
-            <img src="img/logo.png" alt="PineSaga Studios Logo" class="hero-logo">
-            <div class="animated-text" id="animated-words"></div>
+            <img src="" alt="PineSaga Studios Logo" id="logo" class="logo">
+            <div class="animated-words">
+                <span class="word">Film</span>
+                <span class="word">VFX</span>
+                <span class="word">Storytelling</span>
+            </div>
         </div>
     </section>
 
     <!-- Projects Section -->
-    <section id="projects" class="projects" data-aos="fade-up">
-        <div class="projects-grid" id="projects-grid">
-            <!-- Projects will be loaded here dynamically -->
-        </div>
+    <section class="projects" id="projects">
+        <h2>Our Projects</h2>
+        <div class="projects-grid" id="projectsGrid"></div>
     </section>
 
     <!-- Team Section -->
-    <section id="team" class="team" data-aos="fade-up">
-        <div class="team-content">
-            <h2>Meet the Team</h2>
-            <div class="team-profile">
-                <div class="profile-image">
-                    <img src="img/profile.jpg" alt="Team Member">
-                </div>
-                <div class="profile-info">
-                    <p>I've been working in VFX and CGI since 2008, starting with freelance projects before moving on to major feature films and TV series. Over the years, I've worked as a CG generalist, FX technical director, and VFX supervisor, taking on roles from artist to lead and supervisor. Some of the projects I've contributed to include (but not limited to) Disney's Aladdin and Disenchanted, Prehistoric Planet, News of the world, The Boys, Watchmen, The Wheel Of Time, Fast X, and a lot more.</p>
-                    <p>In addition to my VFX career, I've also directed several short films, combining my technical expertise with a passion for storytelling. I enjoy pushing the boundaries of procedural workflows and cinematic world-building, always looking for ways to refine and optimize the creative process.</p>
-                    <div class="companies">
-                        <h3>Companies I've worked at:</h3>
-                        <ul>
-                            <li>Lead FX Technical Director @ MPC</li>
-                            <li>Lead FX Technical Director / Supervisor @ Ghost VFX</li>
-                            <li>Lead FX Technical Director / Supervisor @ Outpost VFX</li>
-                            <li>FX Technical Director @ One Of Us</li>
-                            <li>CG Generalist @ Storyline Studio</li>
-                        </ul>
-                    </div>
+    <section class="team">
+        <h2>Meet the Team</h2>
+        <div class="team-member" data-aos="fade-up">
+            <img src="" alt="Profile" id="profile" class="profile-image">
+            <div class="team-content">
+                <h3>Ali Al-Tobi</h3>
+                <p>I've been working in VFX and CGI since 2008, starting with freelance projects before moving on to major feature films and TV series. Over the years, I've worked as a CG generalist, FX technical director, and VFX supervisor, taking on roles from artist to lead and supervisor.</p>
+                <p>Some of the projects I've contributed to include (but not limited to) Disney's Aladdin and Disenchanted, Prehistoric Planet, News of the world, The Boys, Watchmen, The Wheel Of Time, Fast X, and a lot more.</p>
+                <p>In addition to my VFX career, I've also directed several short films, combining my technical expertise with a passion for storytelling. I enjoy pushing the boundaries of procedural workflows and cinematic world-building, always looking for ways to refine and optimize the creative process.</p>
+                <div class="companies">
+                    <h4>Companies I've worked at:</h4>
+                    <ul>
+                        <li>Lead FX Technical Director @ MPC</li>
+                        <li>Lead FX Technical Director / Supervisor @ Ghost VFX</li>
+                        <li>Lead FX Technical Director / Supervisor @ Outpost VFX</li>
+                        <li>FX Technical Director @ One Of Us</li>
+                        <li>CG Generalist @ Storyline Studio</li>
+                    </ul>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- Footer -->
-    <footer class="footer">
+    <footer>
         <div class="social-links">
-            <a href="#" target="_blank">LinkedIn</a>
-            <a href="#" target="_blank">Twitter</a>
-            <a href="#" target="_blank">Instagram</a>
+            <a href="#" class="social-link">LinkedIn</a>
+            <a href="#" class="social-link">IMDb</a>
+            <a href="#" class="social-link">Vimeo</a>
         </div>
-        <p>&copy; 2024 PineSaga Studios. All rights reserved.</p>
     </footer>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
-    <script src="js/animation.js"></script>
-    <script src="js/projects.js"></script>
+    <script src="js/main.js"></script>
 </body>
 </html> 
